@@ -1,0 +1,21 @@
+.c-key-button {
+  width: 50px;
+  height: 50px;
+  font-size: var(--fs-400);
+  font-weight: bolder;
+  border: none;
+  box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.2), -4px -4px 6px -1px white;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.c-key-button__palm {
+  color: white;
+  background-color: var(--clr-blue-200);
+}
+
+.c-key-button:hover {
+  color: var(--clr-neutral-800);
+  background-color: var(--clr-light-100);
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px white;
+}

@@ -1,0 +1,11 @@
+.main-content {
+    display: grid;
+    place-content: center;
+    padding: .25rem;
+
+    &__box-editor {
+        width: 1200px;
+        height: 350px;
+        padding: .5rem;
+    }
+}

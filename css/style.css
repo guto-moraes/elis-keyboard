@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap");
+:root {
+  --clr-primary-100: rgba(92, 95, 88, 0.651);
+  --clr-primary-400: #5c5f58;
+  --clr-secondary-400: #e600bb;
+  --clr-secondary-500: #b311ff;
+  --clr-neutral-100: white;
+  --clr-neutral-200: #e3edf7;
+  --clr-neutral-300: #d4d7db;
+  --clr-neutral-400: #737a82;
+  --clr-neutral-800: #36393f;
+  --clr-neutral-900: #1a1c1d;
+  --clr-blue-100: #80c2fc;
+  --clr-blue-200: #63a9e7;
+  --clr-blue-300: #4d9add;
+  --clr-blue-400: #2d81ca;
+  --clr-blue-500: #1961a0;
+  --clr-blue-600: #065599;
+  --clr-blue-700: #033968;
+  --clr-green-100: #e0ffd1;
+  --clr-green-200: #c4ffa8;
+  --clr-green-300: #afff8a;
+  --clr-green-400: #76dd46;
+  --clr-green-500: #59c229;
+  --clr-green-600: #3ab800;
+  --clr-green-700: #329405;
+  --clr-green-800: #287604;
+  --clr-green-900: #164002;
+  --clr-red-100: #ffe1e1;
+  --clr-red-200: #ffc2c2;
+  --clr-red-300: #fe8080;
+  --clr-red-400: #fe6767;
+  --clr-red-500: #f34f4f;
+  --clr-red-600: #f20202;
+  --clr-red-700: #c70f0f;
+  --clr-red-800: #980101;
+  --clr-red-900: #510000;
+  --clr-yellow-100: #f9f0d8;
+  --clr-yellow-200: #efdb9f;
+  --clr-yellow-300: #e0b942;
+  --clr-yellow-500: #b8921e;
+  --clr-yellow-700: #886c16;
+  --clr-yellow-900: #5c490f;
+  --clr-bg-light-100: #f0f5f9;
+  --clr-bg-light-400: #e7ebee;
+  --fs-100: 0.8rem;
+  --fs-200: 0.9rem;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.563rem;
+  --fs-600: 1.953rem;
+  --fs-700: 2.441rem;
+  --fs-800: 3.052rem;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: var(--clr-bg-light-100);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 80px calc(100vh - 160px) 80px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-header {
+  background-color: white;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.12);
+}
+
+.main-content {
+  display: grid;
+  place-content: center;
+  padding: 0.25rem;
+}
+.main-content__box-editor {
+  width: 1200px;
+  height: 350px;
+  padding: 0.5rem;
+}
+
+.c-key-button {
+  width: 50px;
+  height: 50px;
+  font-size: var(--fs-400);
+  font-weight: bolder;
+  border: none;
+  box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.2), -4px -4px 6px -1px white;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+.c-key-button__palm {
+  color: white;
+  background-color: var(--clr-blue-200);
+}
+.c-key-button:hover {
+  color: var(--clr-neutral-800);
+  background-color: var(--clr-light-100);
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px white;
+}
+
+/*# sourceMappingURL=style.css.map */
