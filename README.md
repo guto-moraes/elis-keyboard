@@ -1,2 +1,2 @@
 # Editor e teclado virtual para Elis
-Desenvolvimento do aplicativo, editor e teclado virtual, para a produção de texto com o uso da Escrita da Língua de Sinais (ELiS)
+Projeto de desenvolvimento do editor de texto e teclado virtual da Escrita da Língua de Sinais (ELiS)
